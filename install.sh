@@ -1,3 +1,4 @@
+#!/bin/bash
 # Create A and AAAA DNS records for $FQDN
 FQDN='xonotic.codyhill.co'
 EMAIL='webmaster@example.com'
