@@ -1,0 +1,14 @@
+[Unit]
+Description=Xonotic dedicated server
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=xonotic
+WorkingDirectory=/srv/Xonotic
+ExecStart=/srv/Xonotic/xonotic-linux64-dedicated
+
+[Install]
+WantedBy=multi-user.target
